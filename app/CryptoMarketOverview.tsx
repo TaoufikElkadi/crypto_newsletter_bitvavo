@@ -31,7 +31,7 @@ export default function Component() {
                 <h3 className="text-xl font-semibold mb-2">Brand Partnerships</h3>
                 <Card className="mb-4">
                   <CardContent className="p-4">
-                    <h4 className="text-lg font-semibold mb-2">Binance and Mastercard end crypto card partnership.</h4>
+                    <h4 className="text-lg font-semibold mb-2">Coinbase and Mastercard end crypto card partnership.</h4>
                     <p className="text-sm text-gray-600 mb-2">Mastercard (MA.N), opens new tab and crypto exchange Binance will end their four crypto card programmes in Argentina, Brazil, Colombia and Bahrain as of Sept. 22, a spokesperson for Mastercard said via email on Thursday.</p>
                     <Link href="https://www.reuters.com/business/finance/mastercard-binance-end-crypto-card-partnership-2023-08-24/" className="text-blue-600 hover:underline">Read more →</Link>
                   </CardContent>
