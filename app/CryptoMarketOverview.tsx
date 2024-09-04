@@ -27,40 +27,44 @@ export default function Component() {
           <CardContent className="p-6">
             <h2 className="text-2xl font-bold mb-4">Industry News</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="text-xl font-semibold mb-2">Brand Partnerships</h3>
-                <Card className="mb-4">
-                  <CardContent className="p-4">
-                    <h4 className="text-lg font-semibold mb-2">Coinbase and Mastercard end crypto card partnership.</h4>
-                    <p className="text-sm text-gray-600 mb-2">Mastercard (MA.N), opens new tab and crypto exchange Binance will end their four crypto card programmes in Argentina, Brazil, Colombia and Bahrain as of Sept. 22, a spokesperson for Mastercard said via email on Thursday.</p>
-                    <Link href="https://www.reuters.com/business/finance/mastercard-binance-end-crypto-card-partnership-2023-08-24/" className="text-blue-600 hover:underline">Read more →</Link>
-                  </CardContent>
-                </Card>
-                <Card>
-                  <CardContent className="p-4">
-                    <h4 className="text-lg font-semibold mb-2">Coinbase and BlackRock Partnership</h4>
-                    <p className="text-sm text-gray-600 mb-2">Coinbase teams up with BlackRock to provide institutional clients with crypto trading and custody services.</p>
-                    <Link href="https://www.etfstream.com/articles/blackrock-partners-with-coinbase-to-expand-crypto-offering" className="text-blue-600 hover:underline">Read more →</Link>
-                  </CardContent>
-                </Card>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-2">VC Raises & Announcements</h3>
-                <Card className="mb-4">
-                  <CardContent className="p-4">
-                    <h4 className="text-lg font-semibold mb-2">Optimism Raises $150M in Series B</h4>
-                    <p className="text-sm text-gray-600 mb-2">Ethereum Layer 2 solution Optimism secures $150M in Series B funding to scale its infrastructure.</p>
-                    <Link href="https://cointelegraph.com/news/optimism-saves-users-1b-in-fees-raises-150m-in-series-b" className="text-blue-600 hover:underline">Read more →</Link>
-                  </CardContent>
-                </Card>
-                <Card>
-                  <CardContent className="p-4">
-                    <h4 className="text-lg font-semibold mb-2">Aave Secures $25M for Institutional Adoption</h4>
-                    <p className="text-sm text-gray-600 mb-2">DeFi protocol Aave raises $25M to accelerate institutional adoption of decentralized finance.</p>
-                    <Link href="https://www.cryptoknowmics.com/news/aave-raises-25m-in-its-latest-venture-capital-investment-round" className="text-blue-600 hover:underline">Read more →</Link>
-                  </CardContent>
-                </Card>
-              </div>
+              <Card>
+                <CardContent className="p-4">
+                  <h3 className="text-xl font-semibold mb-2">Brand Partnerships</h3>
+                  <Card className="mb-4">
+                    <CardContent className="p-4">
+                      <h4 className="text-lg font-semibold mb-2">Coinbase and Mastercard end crypto card partnership.</h4>
+                      <p className="text-sm text-gray-600 mb-2">Mastercard (MA.N), opens new tab and crypto exchange Binance will end their four crypto card programmes in Argentina, Brazil, Colombia and Bahrain as of Sept. 22, a spokesperson for Mastercard said via email on Thursday.</p>
+                      <Link href="https://www.reuters.com/business/finance/mastercard-binance-end-crypto-card-partnership-2023-08-24/" className="text-blue-600 hover:underline">Read more →</Link>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-4">
+                      <h4 className="text-lg font-semibold mb-2">Coinbase and BlackRock Partnership</h4>
+                      <p className="text-sm text-gray-600 mb-2">Coinbase teams up with BlackRock to provide institutional clients with crypto trading and custody services.</p>
+                      <Link href="https://www.etfstream.com/articles/blackrock-partners-with-coinbase-to-expand-crypto-offering" className="text-blue-600 hover:underline">Read more →</Link>
+                    </CardContent>
+                  </Card>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-4">
+                  <h3 className="text-xl font-semibold mb-2">VC Raises & Announcements</h3>
+                  <Card className="mb-4">
+                    <CardContent className="p-4">
+                      <h4 className="text-lg font-semibold mb-2">Optimism Raises $150M in Series B</h4>
+                      <p className="text-sm text-gray-600 mb-2">Ethereum Layer 2 solution Optimism secures $150M in Series B funding to scale its infrastructure.</p>
+                      <Link href="https://cointelegraph.com/news/optimism-saves-users-1b-in-fees-raises-150m-in-series-b" className="text-blue-600 hover:underline">Read more →</Link>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-4">
+                      <h4 className="text-lg font-semibold mb-2">Aave Secures $25M for Institutional Adoption</h4>
+                      <p className="text-sm text-gray-600 mb-2">DeFi protocol Aave raises $25M to accelerate institutional adoption of decentralized finance.</p>
+                      <Link href="https://www.cryptoknowmics.com/news/aave-raises-25m-in-its-latest-venture-capital-investment-round" className="text-blue-600 hover:underline">Read more →</Link>
+                    </CardContent>
+                  </Card>
+                </CardContent>
+              </Card>
             </div>
           </CardContent>
         </Card>
