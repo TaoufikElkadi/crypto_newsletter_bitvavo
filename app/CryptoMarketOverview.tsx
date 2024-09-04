@@ -48,7 +48,7 @@ export default function Component() {
                     <CardContent className="p-4">
                       <h4 className="text-lg font-semibold mb-2">Visa and ConsenSys Collaborate on CBDC Payments</h4>
                       <p className="text-sm text-gray-600 mb-2">Visa partners with ConsenSys to develop a central bank digital currency (CBDC) payment module for government and institutional use.</p>
-                      <Link href="#" className="text-blue-600 hover:underline">Read more →</Link>
+                      <Link href="https://www.coindesk.com/business/2022/01/13/visa-partners-with-consensys-to-help-bridge-cbdcs-with-traditional-finance/" className="text-blue-600 hover:underline">Read more →</Link>
                     </CardContent>
                   </Card>
                 </CardContent>
@@ -74,7 +74,7 @@ export default function Component() {
                     <CardContent className="p-4">
                       <h4 className="text-lg font-semibold mb-2">Polygon Labs Announces $100M Ecosystem Fund</h4>
                       <p className="text-sm text-gray-600 mb-2">Polygon Labs launches a $100M fund to support development and growth within the Polygon ecosystem.</p>
-                      <Link href="#" className="text-blue-600 hover:underline">Read more →</Link>
+                      <Link href="https://www.coindesk.com/web3/2024/03/19/immutable-king-river-capital-polygon-labs-set-up-100m-web3-gaming-fund/" className="text-blue-600 hover:underline">Read more →</Link>
                     </CardContent>
                   </Card>
                 </CardContent>
