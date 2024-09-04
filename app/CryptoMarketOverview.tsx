@@ -37,11 +37,18 @@ export default function Component() {
                       <Link href="https://www.reuters.com/business/finance/mastercard-binance-end-crypto-card-partnership-2023-08-24/" className="text-blue-600 hover:underline">Read more →</Link>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="mb-4">
                     <CardContent className="p-4">
                       <h4 className="text-lg font-semibold mb-2">Coinbase and BlackRock Partnership</h4>
                       <p className="text-sm text-gray-600 mb-2">Coinbase teams up with BlackRock to provide institutional clients with crypto trading and custody services.</p>
                       <Link href="https://www.etfstream.com/articles/blackrock-partners-with-coinbase-to-expand-crypto-offering" className="text-blue-600 hover:underline">Read more →</Link>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-4">
+                      <h4 className="text-lg font-semibold mb-2">Visa and ConsenSys Collaborate on CBDC Payments</h4>
+                      <p className="text-sm text-gray-600 mb-2">Visa partners with ConsenSys to develop a central bank digital currency (CBDC) payment module for government and institutional use.</p>
+                      <Link href="#" className="text-blue-600 hover:underline">Read more →</Link>
                     </CardContent>
                   </Card>
                 </CardContent>
@@ -56,11 +63,18 @@ export default function Component() {
                       <Link href="https://cointelegraph.com/news/optimism-saves-users-1b-in-fees-raises-150m-in-series-b" className="text-blue-600 hover:underline">Read more →</Link>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="mb-4">
                     <CardContent className="p-4">
                       <h4 className="text-lg font-semibold mb-2">Aave Secures $25M for Institutional Adoption</h4>
                       <p className="text-sm text-gray-600 mb-2">DeFi protocol Aave raises $25M to accelerate institutional adoption of decentralized finance.</p>
                       <Link href="https://www.cryptoknowmics.com/news/aave-raises-25m-in-its-latest-venture-capital-investment-round" className="text-blue-600 hover:underline">Read more →</Link>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-4">
+                      <h4 className="text-lg font-semibold mb-2">Polygon Labs Announces $100M Ecosystem Fund</h4>
+                      <p className="text-sm text-gray-600 mb-2">Polygon Labs launches a $100M fund to support development and growth within the Polygon ecosystem.</p>
+                      <Link href="#" className="text-blue-600 hover:underline">Read more →</Link>
                     </CardContent>
                   </Card>
                 </CardContent>
